@@ -8,8 +8,7 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3NjMzY2Q0MjRkZTYxMmU2N2JkZWNjOWI4ZTIyN2ZiNSIsIm5iZiI6MTczMzU2NzIwMy42MDQsInN1YiI6IjY3NTQyMmUzZGYzYWU5N2UxYzJmNDUyYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Lgh6hBbDzNVoVkP0Tc8fDcCDzf5SKG0K3TFeFbz9rhA",
+    Authorization: "your own",
   },
 };
 
@@ -24,5 +23,4 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "spanish", name: "Spanish" },
 ];
 
-export const OPENAI_KEY =
-  "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";
+export const OPENAI_KEY = "use your own openai api";
